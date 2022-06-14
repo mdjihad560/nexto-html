@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <title>Nexto</title>
+
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!--- End favicon-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Public+Sans:wght@600;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- End google font  -->
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/fontawesome.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+
+
+  <!-- Code Editor  -->
+
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/app.min.css" />
+</head>
+
+<body class="light">
+  <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+
+
+  <header class="site-header site-header--menu-right nexto-header-section" id="sticky-menu">
+    <div class="container-fluid">
+      <nav class="navbar site-navbar">
+        <!-- Brand Logo-->
+        <div class="brand-logo">
+          <a href="index.html">
+            <img src="assets/images/logo/logo1.svg" alt="" class="light-version-logo">
+          </a>
+        </div>
+        <div class="menu-block-wrapper">
+          <div class="menu-overlay"></div>
+          <nav class="menu-block" id="append-menu-header">
+            <div class="mobile-menu-head">
+              <div class="go-back">
+                <i class="fa fa-angle-left"></i>
+              </div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="site-menu-main">
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Home <i
+                  class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-1">
+                  <li class="sub-menu--item">
+                    <a href="index.html">Home 01</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-2.html">Home 02</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-3.html">Home 03</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Pages <i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-2">
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">About<i
+                      class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-3">
+                      <li class="sub-menu--item">
+                        <a href="about-dark.html">About Dark</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="about-light.html">About Light</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">blog<i
+                      class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-3">
+                      <li class="sub-menu--item">
+                        <a href="blog-sidebar.html">blog</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-blog.html">blog detalis</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Service<i
+                      class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-4">
+                      <li class="sub-menu--item">
+                        <a href="service.html">service</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-service.html">service detalis</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio<i
+                      class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-5">
+                      <li class="sub-menu--item">
+                        <a href="portfolio1.html">Portfolio</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-portfolio.html">Portfolio detalis</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Careers<i
+                      class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-6">
+                      <li class="sub-menu--item">
+                        <a href="careers.html">Careers</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-career.html">Careers Detalis</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Blog <i
+                  class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-7">
+                  <li class="sub-menu--item">
+                    <a href="blog-sidebar.html">blog</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="single-blog.html">blog detalis</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link-item">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
+          <a class="nexto-btn nexto-menu-btn1" href="contact.html">
+            Connect Wallet
+          </a>
+        </div>
+        <!-- mobile menu trigger -->
+        <div class="mobile-menu-trigger">
+          <span></span>
+        </div>
+        <!--/.Mobile Menu Hamburger Ends-->
+      </nav>
+    </div>
+  </header>
+  <!--End landex-header-section -->
+
+
+  <div class="nexto-breadcrumb-section dark-version" style="background-image: url(assets/images/all-img/about/bread-bg.png);">
+    <div class="container">
+      <div class="nexto-breadcrumb-thumb-top">
+        <div class="nexto-breadcrumb-thumb thumb1">
+          <img src="assets/images/all-img/about/06.png" alt="">
+        </div>
+        <div class="nexto-breadcrumb-thumb thumb2">
+          <img src="assets/images/all-img/about/07.png" alt="">
+        </div>
+        <div class="nexto-breadcrumb-thumb thumb3">
+          <img src="assets/images/all-img/about/08.png" alt="">
+        </div>
+        <div class="nexto-breadcrumb-thumb thumb4">
+          <img src="assets/images/all-img/about/09.png" alt="">
+        </div>
+      </div>
+      <div class="nexto-breadcrumb-thumb-bottom">
+        <div class="nexto-breadcrumb-thumb thumb2">
+          <img src="assets/images/all-img/about/01.png" alt="">
+        </div>
+        <div class="nexto-breadcrumb-thumb thumb3">
+          <img src="assets/images/all-img/about/02.png" alt="">
+        </div>
+        <div class="nexto-breadcrumb-thumb thumb4">
+          <img src="assets/images/all-img/about/03.png" alt="">
+        </div>
+        <div class="nexto-breadcrumb-thumb thumb2">
+          <img src="assets/images/all-img/about/04.png" alt="">
+        </div>
+        <div class="nexto-breadcrumb-thumb thumb3">
+          <img src="assets/images/all-img/about/05.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End breadcrumb section -->
+
+  <div class="nexto-about-section2 nexto-section-padding">
+    <div class="container">
+      <div class="nexto-section-title">
+        <div class="nexto-hero-content">
+          <h1>About our company</h1>
+          <p>An NFT is a digital asset that represents real-world objects like art, music, in-game items and videos. They are bought and sold online, frequently with cryptocurrency, and they are generally encoded with the same underlying software as many cryptos.</p>
+        </div>
+      </div>
+      <div class="nexto-thumb-thumb2">
+        <img src="assets/images/all-img/about/about-thumb.jpg" alt="">
+      </div>
+    </div>
+    <div class="nexto-shpae5">
+      <img src="assets/images/all-img/about/shape.png" alt="">
+    </div>
+  </div>
+  <!-- End about section -->
+
+  <div class="nexto-feature-section">
+    <div class="container">
+      <div class="nexto-section-title2">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="nexto-default-content content-sm">
+              <h2>Our strength is to change the path of our creativity trade NFT</h2>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1">
+            <div class="nexto-default-content">
+              <p>Nexto is a universal marketplace that has been working with NFTS Art since 2002. we are ready to change the world with NFTs!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6">
+          <div class="nexto-iconbox-wrap nexto-iconbox-wrap3 nexto-iconbox-wrap4">
+            <div class="nexto-iconbox-thumb">
+              <img src="assets/images/all-img/about/feature1.png" alt="">
+            </div>
+            <div class="nexto-iconbox-data">
+              <h4>Safe and secure</h4>
+              <p>NFTs are safe when bought or sold on reputable exchanges, & they cannot be stolen if users properly secure.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="nexto-iconbox-wrap nexto-iconbox-wrap3 nexto-iconbox-wrap4">
+            <div class="nexto-iconbox-thumb">
+              <img src="assets/images/all-img/about/feature2.png" alt="">
+            </div>
+            <div class="nexto-iconbox-data">
+              <h4>Complete transparency</h4>
+              <p>Transparency in a process involves it being completely visible and open to scrutiny, so that it's clear.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="nexto-iconbox-wrap nexto-iconbox-wrap3 nexto-iconbox-wrap4">
+            <div class="nexto-iconbox-thumb">
+              <img src="assets/images/all-img/about/feature3.png" alt="">
+            </div>
+            <div class="nexto-iconbox-data">
+              <h4>Creative team</h4>
+              <p>Nexto has creative artists, painters, and designers working tirelessly on NFT art all over the world.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End nexto feature section -->
+
+  <div class="test">
+    <div class="exeter-signal exeter-animate wow">
+      <img src="assets/images/all-img/hero-thumb.png" alt="">
+    </div>
+
+  </div>
+
+
+
+  <p>vgsdfl;gfjsd</p>
+  <p>vgsdfl;gfjsd</p>
+  <p>vgsdfl;gfjsd</p>
+
+
+  <!-- Footer  -->
+
+  <footer class="nexto-footer-section">
+    <div class="container">
+      <div class="nexto-footer-top">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="nexto-textarea">
+              <div class="nexto-footer-logo">
+                <img src="assets/images/logo/logo1.svg" alt="" class="light-version-logo">
+              </div>
+              <p>Discover NFTs by category, track the latest drops, and follow the collections you love to enjoy it!</p>
+              <div class="nexto-social-icon">
+                <ul>
+                  <li><a href=""><img src="assets/images/social/twitter.svg" alt=""></a></li>
+                  <li><a href=""><img src="assets/images/social/facebook.svg" alt=""></a></li>
+                  <li><a href=""><img src="assets/images/social/instagram.svg" alt=""></a></li>
+                  <li><a href=""><img src="assets/images/social/github.svg" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
+            <div class="nexto-footer-menu">
+              <span>Marketplace</span>
+              <ul>
+                <li><a href="">Create A Store</a></li>
+                <li><a href="">Start Selling</a></li>
+                <li><a href="">My Account</a></li>
+                <li><a href="">Job</a></li>
+                <li><a href="">List a Item</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
+            <div class="nexto-footer-menu">
+              <span>Marketplace</span>
+              <ul>
+                <li><a href="">Art</a></li>
+                <li><a href="">Digital Art</a></li>
+                <li><a href="">Photography</a></li>
+                <li><a href="">Games</a></li>
+                <li><a href="">Music</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
+            <div class="nexto-footer-menu">
+              <span>Marketplace</span>
+              <ul>
+                <li><a href="">Explore NFTs</a></li>
+                <li><a href="">Platform Status</a></li>
+                <li><a href="">Help center</a></li>
+                <li><a href="">Partners</a></li>
+                <li><a href="">Marketplace</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nexto-footer-bottom">
+        <p>&copy; Copyright 2022, All Rights Reserved by Mthemeus</p>
+        <div class="nexto-footer-menu">
+          <ul>
+            <li><a href="">Terms</a></li>
+            <li><a href=""> Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- scripts -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/menu/menu.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
