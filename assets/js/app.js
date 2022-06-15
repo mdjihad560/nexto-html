@@ -76,7 +76,7 @@
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: true,
-        autoplay: true,
+        autoplay: false,
         dots: false,
         prevArrow: '<button class="slide-arrow prev-arrow"></button>',
         nextArrow: '<button class="slide-arrow next-arrow"></button>',
