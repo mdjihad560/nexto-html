@@ -222,8 +222,10 @@
 
     if (swiper_slider.is_exist()) {
       swiper_slider = new Swiper(".nexto-swiper-slider", {
+        loop: true,
         effect: "cards",
-        grabCursor: true
+        grabCursor: true,
+        autoplay: true
       });
     }
     /*--------------------------------------------------------------
