@@ -3608,7 +3608,7 @@ a.next-readmore-btn span:before {
 @media (max-width: 991px) {
   .nexto-hero-thumb {
     text-align: center;
-    transform: none;
+    transform: rotate(0deg) !important;
     margin-top: 50px;
   }
 }
@@ -5132,7 +5132,7 @@ a.next-readmore-btn span:before {
 }
 @media (max-width: 991px) {
   .nexto-artwork-thumb {
-    transform: rotate(0deg);
+    transform: rotate(0deg) !important;
     margin-top: 30px;
   }
 }
