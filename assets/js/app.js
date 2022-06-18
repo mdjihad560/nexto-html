@@ -36,6 +36,39 @@
 
     if (nexto_counter.is_exist()) {
       var a = 0;
+      var oTop = $(nexto_counter).offset().top - window.innerHeight;
+
+      if (a == 0 && $(window).scrollTop() > oTop) {
+        $('.nexto-counter').each(function () {
+          var $this = $(this),
+              countTo = $this.attr('data-percentage');
+          $({
+            countNum: $this.text()
+          }).animate({
+            countNum: countTo
+          }, {
+            duration: 4000,
+            easing: 'swing',
+            step: function step() {
+              $this.text(Math.floor(this.countNum));
+            },
+            complete: function complete() {
+              $this.text(this.countNum);
+            }
+          });
+        });
+        a = 1;
+      }
+    }
+    /*--------------------------------------------------------------
+    COUNTER TWO JS INIT
+    --------------------------------------------------------------*/
+
+
+    var nexto_counter = $('#nexto-counter2');
+
+    if (nexto_counter.is_exist()) {
+      var a = 0;
       $(window).scroll(function () {
         var oTop = $(nexto_counter).offset().top - window.innerHeight;
 
@@ -243,11 +276,21 @@
     SCROLL EFFECT TWO JS INIT
     ------------------------------------------------------------*/
 
-    var $rotateZ = $('#rotateTwo');
+    var $rotateTwo = $('#rotateTwo');
     var $win = $(window);
     $win.on('scroll', function () {
       var right = 18 - $win.scrollTop() * 0.01;
-      $rotateZ.css('transform', 'rotate(' + right + 'deg)');
+      $rotateTwo.css('transform', 'rotate(' + right + 'deg)');
+    });
+    /*--------------------------------------------------------------
+    SCROLL EFFECT THREE JS INIT
+    ------------------------------------------------------------*/
+
+    var $rotateThree = $('#rotateThree');
+    var $win = $(window);
+    $win.on('scroll', function () {
+      var right = 36 - $win.scrollTop() * 0.01;
+      $rotateThree.css('transform', 'rotate(' + right + 'deg)');
     });
     /*--------------------------------------------------------------
     YOUTUBE MAGNIFIC POPUP JS INIT
