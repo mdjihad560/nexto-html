@@ -1,5 +1,7 @@
 "use strict";
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 (function ($) {
   "use strict";
   /*------------------------------------------------------------------
@@ -103,38 +105,34 @@
     var nexto_slider_one = $('.nexto-slider-one');
 
     if (nexto_slider_one.is_exist()) {
-      nexto_slider_one.slick({
+      var _nexto_slider_one$sli;
+
+      nexto_slider_one.slick((_nexto_slider_one$sli = {
         infinite: true,
-        center: true,
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: true,
-        autoplay: false,
-        dots: false,
-        prevArrow: '<button class="slide-arrow prev-arrow"></button>',
-        nextArrow: '<button class="slide-arrow next-arrow"></button>',
-        responsive: [{
-          breakpoint: 1400,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true
-          }
-        }, {
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1
-          }
-        }, {
-          breakpoint: 700,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false
-          }
-        }]
-      });
+        autoplay: false
+      }, _defineProperty(_nexto_slider_one$sli, "autoplay", true), _defineProperty(_nexto_slider_one$sli, "autoplaySpeed", 2000), _defineProperty(_nexto_slider_one$sli, "prevArrow", '<button class="slide-arrow prev-arrow"></button>'), _defineProperty(_nexto_slider_one$sli, "nextArrow", '<button class="slide-arrow next-arrow"></button>'), _defineProperty(_nexto_slider_one$sli, "responsive", [{
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      }, {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      }, {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false
+        }
+      }]), _nexto_slider_one$sli));
     }
     /*--------------------------------------------------------------
     NEXTO SLIDER ONE
