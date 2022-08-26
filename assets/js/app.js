@@ -6,6 +6,20 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   "use strict";
   /*------------------------------------------------------------------
   [Table of contents]
+    STICKY MENU JS INIT
+  COUNTER JS INIT
+  COUNTER TWO JS INIT
+  NEXTO SLIDER ONE
+  NEXTO SLIDER TWO
+  NEXTO TEXT SLIDER
+  NEXTO SWIPER SLIDER JS INIT
+  SCROLL EFFECT ONE JS INIT
+  SCROLL EFFECT TWO JS INIT
+  SCROLL EFFECT THREE JS INIT
+  MAGNIFIC POPUP JS INIT
+  CARD LIKE JS INIT
+  FOUR COLUMN FILTER JS INIT
+  TWO COLUMN FILTER JS INIT
   
   -------------------------------------------------------------------*/
 
@@ -135,7 +149,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       }]), _nexto_slider_one$sli));
     }
     /*--------------------------------------------------------------
-    NEXTO SLIDER ONE
+    NEXTO SLIDER TWO
     --------------------------------------------------------------*/
 
 
@@ -245,7 +259,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       });
     }
     /*--------------------------------------------------------------
-    YOUTUBE MAGNIFIC POPUP JS INIT
+    NEXTO SWIPER SLIDER JS INIT
     ------------------------------------------------------------*/
 
 
@@ -291,7 +305,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       $rotateThree.css('transform', 'rotate(' + right + 'deg)');
     });
     /*--------------------------------------------------------------
-    YOUTUBE MAGNIFIC POPUP JS INIT
+    MAGNIFIC POPUP JS INIT
     ------------------------------------------------------------*/
 
     var popup_youtube = $('.nexto-popup');
@@ -301,7 +315,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         type: 'iframe',
         mainClass: 'mfp-fade'
       });
-    } // card like js
+    }
+    /*--------------------------------------------------------------
+    CARD LIKE JS INIT
+    ------------------------------------------------------------*/
 
 
     var nextoBtnTigger = document.querySelectorAll('.nexto-tigger');
